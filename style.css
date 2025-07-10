@@ -23,7 +23,7 @@ body {
     width: 90rem;
 }
 
-/* this is background color */
+/* this is button */
 .button {
     background: #4E47FF;
     font-size: x-large;
@@ -32,17 +32,13 @@ body {
     border: none;
     border-radius: 0.4rem;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 .button:hover {
     background: rgb(191, 227, 242);
     color: rgb(0, 0, 0);
-    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.234);
-}
-
-/* main div start */
-main{
-    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
 }
 
 /* header section start */
@@ -57,6 +53,10 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 8rem;
+}
+
+header nav a{
+    text-decoration: none;
 }
 
 header nav h1 {
@@ -81,13 +81,16 @@ header > div h1 {
 }
 
 /* header section end */
-
 /* main section start */
+main{
+    width: 100%;
+    padding: 7rem 10rem 7rem 10rem;
+}
 /* Action section start */
 .Action-sectiom{
     display: flex;
     justify-content: space-between;
-    margin: 10rem;
+    padding: 0rem 0rem 7rem 0rem;
 }
 
 .Action-sectiom div{
@@ -111,5 +114,44 @@ header > div h1 {
 }
 
 /* Action section end */
+/* Productive Users Section start */
+.Productive-Users{
+    background: #0b03ff19;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 100%;
+}
+
+.Productive-Users h1{
+    margin-top: 1rem;
+}
+
+.Productive-Users > div{
+    width: 55%;
+    display: flex;
+    /* gap: 6rem; */
+    justify-content: space-between;
+}
+
+.Productive-Users > div h2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 3.5rem;
+    color: #4E47FF;
+    margin-top: 1.5rem;
+}
+
+.Productive-Users p{
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+.Productive-Users{
+    
+}
+
+/* Productive Users Section end */
 
 /* main section end */
