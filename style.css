@@ -18,6 +18,10 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
+.main-div{
+    background: #F5F8FF;
+    width: 90rem;
+}
 
 /* this is background color */
 .button {
@@ -31,16 +35,14 @@ body {
 }
 
 .button:hover {
-    background: rgb(35, 187, 247);
+    background: rgb(191, 227, 242);
     color: rgb(0, 0, 0);
     box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.234);
 }
 
 /* main div start */
-main {
-    width: 90rem;
-    height: 500rem;
-    background: white;
+main{
+    width: 100%;
 }
 
 /* header section start */
@@ -79,3 +81,35 @@ header > div h1 {
 }
 
 /* header section end */
+
+/* main section start */
+/* Action section start */
+.Action-sectiom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem;
+}
+
+.Action-sectiom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Action-sectiom div h1{
+    font-size: xx-large;
+    margin-bottom: 1.8rem;
+}
+
+.Action-sectiom div p{
+    font-size: larger;
+    margin-bottom: 1.8rem;
+}
+
+.Action-sectiom img{
+    width: 25rem;
+    border-radius: 2.5rem;
+}
+
+/* Action section end */
+
+/* main section end */
