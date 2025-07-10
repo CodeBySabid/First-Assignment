@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
@@ -39,7 +38,7 @@ body {
 .button:hover {
     background: rgb(191, 227, 242);
     color: rgb(0, 0, 0);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.492);
 }
 
 /* header section start */
@@ -133,7 +132,6 @@ main{
 .Productive-Users > div{
     width: 55%;
     display: flex;
-    /* gap: 6rem; */
     justify-content: space-between;
 }
 
@@ -157,6 +155,7 @@ main{
     align-items: center;
     margin: 8rem 0rem;
 }
+
 .Users-Feedback > h1{
     font-size: xx-large;
     margin-bottom: 4rem;
@@ -185,6 +184,7 @@ main{
 .card > div > h2{
     margin: 0.9rem 0rem 0rem 0rem;
 }
+
 .card > div > p{
     font-size: 0.9rem;
     margin: 0.7rem 0rem;
@@ -194,6 +194,7 @@ main{
 .card-img img{
     border-radius: 50%;
 }
+
 .card-img{
     display: flex;
     align-items: center;
@@ -202,4 +203,28 @@ main{
 }
 
 /* Users’s Feedback Section end */
+/* Focus section start */
+.Focus{
+    width: 100%;
+    background: white;
+    padding: 7rem;
+    border-radius: 1.5rem;
+}
+.Focus div{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Focus h1{
+    font-size: 3rem;
+}
+
+.Focus img{
+    border-radius: 1.5rem;
+}
+/* Focus section end */
 /* main section end */
