@@ -284,6 +284,9 @@ main{
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.131);
 }
 
+.form-section a{
+    text-decoration: none;
+}
 .form-section a button{
     margin-top: 1.2rem;
     width: 30rem;
@@ -301,6 +304,9 @@ footer{
     text-align: center;
     padding: 5rem 0rem 9rem 0rem;
     background: white;
+}
+footer a{
+    text-decoration: none;
 }
 
 footer h1{
