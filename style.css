@@ -88,28 +88,28 @@ main{
 }
 
 /* Action section start */
-.Action-sectiom{
+.Action-section{
     display: flex;
     justify-content: space-between;
     padding: 0rem 0rem 7rem 0rem;
 }
 
-.Action-sectiom div{
+.Action-section div{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.Action-sectiom div h1{
+.Action-section div h1{
     font-size: xx-large;
     margin-bottom: 1.8rem;
 }
 
-.Action-sectiom div p{
+.Action-section div p{
     font-size: larger;
     margin-bottom: 1.8rem;
 }
 
-.Action-sectiom img{
+.Action-section img{
     width: 25rem;
     border-radius: 2.5rem;
 }
@@ -211,6 +211,7 @@ main{
     padding: 7rem;
     border-radius: 1.5rem;
 }
+
 .Focus div{
     width: 100%;
     height: 35rem;
@@ -282,6 +283,12 @@ main{
 .form-section textarea:focus{
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.131);
 }
+
+.form-section a button{
+    margin-top: 1.2rem;
+    width: 30rem;
+}
+
 /* form section end */
 
 /* main section end */
